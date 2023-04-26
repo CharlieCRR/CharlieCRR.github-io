@@ -3244,11 +3244,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #493382; /*COLOUR: Bottom*/
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #5052b5; /*COLOUR: Background of projects segment*/
 		}
 
 		.wrapper.style2-alt {
