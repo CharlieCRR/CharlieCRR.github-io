@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #2e2051; /* COLOUR: Background */
+			background-color: #5e42a6; /* COLOUR: Background */
 		}
 
 		.wrapper.style1-alt {
@@ -3781,7 +3781,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #ffffff; /* COLOUR: Text when selected. */
 			}
 
 				#sidebar nav a.active:after {
