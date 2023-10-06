@@ -3899,7 +3899,7 @@ input, select, textarea {
 
 				#intro { /* Adjust the background size for smaller screens */
 					min-height: 100vh; /* Increases the element size to 40% of the viewport */
-					background-size: contain 100% auto; /* Contains the image, and make sure it automatically scales up to screen-space*/
+					background-size: contain 100%; /* Contains the image, and make sure it automatically scales up to screen-space*/
 				}
 			}
 
