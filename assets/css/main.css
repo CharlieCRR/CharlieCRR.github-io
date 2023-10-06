@@ -3897,6 +3897,9 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
+				#intro {
+					background-size: 50% 50%; /* Adjust the background size for smaller screens */
+				}
 			}
 
 		@media screen and (max-width: 1280px) {
