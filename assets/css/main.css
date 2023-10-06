@@ -3873,7 +3873,7 @@ input, select, textarea {
 
 	#intro {
 		width: 100%;
-		height: 100%;
+		height: 56.25vw;  /* 9/16 = 0.5625; it's the 16:9 aspect ratio in relation to viewport width */
 		margin: 0;
 		padding: 0;
 		background-attachment: fixed;
