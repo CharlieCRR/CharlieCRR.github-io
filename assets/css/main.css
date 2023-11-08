@@ -3362,12 +3362,13 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	#header { /* RTRN */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #303030;
+		background-image: url("images/Main_Header.png");
+		background-size: 100% 100%;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3440,22 +3441,18 @@ input, select, textarea {
 
 				#header .title {
 					font-size: 1.25em;
-					padding: 1em 0;
+					padding: 0.5em 0;
 				}
 
-				#header > nav {
-					border-top: solid 1px rgba(255, 255, 255, 0.15);
-					text-align: inherit;
+
+				#header > nav > ul > li {
+					margin-left: 1.5em;
 				}
 
-					#header > nav > ul > li {
-						margin-left: 1.5em;
+					#header > nav > ul > li a {
+						height: 0em;
+						line-height: 0em;
 					}
-
-						#header > nav > ul > li a {
-							height: 6em;
-							line-height: 6em;
-						}
 
 		}
 
