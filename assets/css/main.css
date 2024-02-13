@@ -3318,7 +3318,7 @@ input, select, textarea {
 		}
 
 		.small-image {
-			width: 100px; /* Adjust the width as needed */
+			width: 75px; /* Adjust the width as needed */
 			height: auto; /* Maintain aspect ratio */
 		}
 
