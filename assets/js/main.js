@@ -129,6 +129,17 @@
 			}
 		});
 
+	document.addEventListener("DOMContentLoaded", function () {
+		// Simulate a delay to demonstrate the loading screen
+		setTimeout(function () {
+			// Hide the loading screen
+			document.getElementById("loading-screen").style.display = "none";
+			// Show the website content
+			document.getElementById("content").style.display = "block";
+		}, 3000); // Loading time in milliseconds
+	});
+
+
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({
